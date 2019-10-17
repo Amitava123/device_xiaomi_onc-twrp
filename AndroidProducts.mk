@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_onclite.mk
+    $(LOCAL_DIR)/omni_onc.mk

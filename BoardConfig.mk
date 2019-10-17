@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-DEVICE_PATH := device/xiaomi/onclite
+DEVICE_PATH := device/xiaomi/onc
 
 # Architecture
 TARGET_ARCH := arm64

@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := onclite
+PRODUCT_RELEASE_NAME := onc
 
 $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
@@ -23,10 +23,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8953
 
-PRODUCT_DEVICE := onclite
-PRODUCT_NAME := omni_onclite
+PRODUCT_DEVICE := onc
+PRODUCT_NAME := omni_onc
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Redmi 7
+PRODUCT_MODEL := Xiaomi Redmi Y3
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
