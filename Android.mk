@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE), onclite)
+ifeq ($(TARGET_DEVICE), onc)
 
 LOCAL_PATH := $(call my-dir)
 

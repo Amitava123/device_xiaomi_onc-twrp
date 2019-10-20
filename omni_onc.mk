@@ -29,6 +29,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi Redmi Y3
 PRODUCT_MANUFACTURER := Xiaomi
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE=onc \
+    PRODUCT_NAME=onc
+
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.device \
     ro.product.name \
