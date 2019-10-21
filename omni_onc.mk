@@ -28,15 +28,18 @@ PRODUCT_NAME := omni_onc
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi Redmi Y3
 PRODUCT_MANUFACTURER := Xiaomi
+TARGET_VENDOR_PRODUCT_NAME := onc
+TARGET_VENDOR_DEVICE_NAME := onc
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=onc \
     PRODUCT_NAME=onc
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.device \
-    ro.product.name \
-    ro.build.product
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.keystore=sdm632 \
+    sys.usb.controller=7000000.dwc3 \
+    sys.usb.rndis.func.name=rndis_bam \
+    sys.usb.rmnet.func.name=rmnet_bam
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.security_patch=2099-12-31
